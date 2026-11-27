@@ -1,44 +1,48 @@
-# Awesome-LLM-Token-Optimization-Inference-Efficiency
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency">
+    <img src="assets/banner.svg" alt="Awesome LLM Token Optimization and Inference Efficiency Banner" width="100%" />
+  </a>
+</p>
 
-# Awesome-LLM-Token-Optimization-Inference-Efficiency
+# Awesome LLM Token Optimization & Inference Efficiency ⚡🚀
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency?color=blue" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-Top LLM Token Optimization Inference Efficiency (Opensource) 🌟 Star if you like it! 🌟
-
-
-
-A curated list of top LLM token optimization frameworks, prompt compression & pruning engines, high-efficiency GPU/CPU inference runtimes, speculative decoding systems, and KV-cache reuse engines—featuring commercial SaaS/Hosted platforms alongside their open-source equivalents.
-
-
-
----
-
-
-
-## Table of Contents
-
-
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
-  - [Token Optimization, Prompt Compression & Pruning Engines](#token-optimization-prompt-compression--pruning-engines)
-  - [High-Throughput GPU LLM Inference & Serving Engines](#high-throughput-gpu-llm-inference--serving-engines)
-  - [Speculative Decoding & Fast Token Generation Frameworks](#speculative-decoding--fast-token-generation-frameworks)
-  - [KV-Cache Compression, Paging & Prefix Reuse Systems](#kv-cache-compression-paging--prefix-reuse-systems)
-  - [Constrained Decoding & Zero-Overhead Structured Output](#constrained-decoding--zero-overhead-structured-output)
-- [Contributing](#contributing)
+> 🌟 **A comprehensive, SEO-optimized, production-ready curated index** of top LLM token optimization frameworks, prompt compression & pruning engines, high-efficiency GPU/CPU inference runtimes, speculative decoding systems, KV-cache reuse engines, and structured JSON output libraries. Featuring enterprise commercial SaaS platforms alongside community-driven open-source equivalents.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📖 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source Equivalents & Tools](#-open-source-equivalents--tools)
+  - [✂️ Token Optimization, Prompt Compression & Pruning Engines](#️-token-optimization-prompt-compression--pruning-engines)
+  - [🏎️ High-Throughput GPU LLM Inference & Serving Engines](#️-high-throughput-gpu-llm-inference--serving-engines)
+  - [⏩ Speculative Decoding & Fast Token Generation Frameworks](#-speculative-decoding--fast-token-generation-frameworks)
+  - [💾 KV-Cache Compression, Paging & Prefix Reuse Systems](#-kv-cache-compression-paging--prefix-reuse-systems)
+  - [🎯 Constrained Decoding & Zero-Overhead Structured Output](#-constrained-decoding--zero-overhead-structured-output)
+- [📈 Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global AI inference market is estimated at approximately **$106 billion in 2025** and is projected to expand toward **$254+ billion by 2030** (CAGR ~19%), driven by surging generative AI adoption and agentic multi-step reasoning workloads. The market displays a distinct bifurcation: the foundational hardware and accelerator silicon layer is **highly concentrated** (dominated by NVIDIA and select cloud hyperscalers), whereas the inference serving, prompt optimization, runtime caching, and gateway software layer is **moderately to highly fragmented** with intense competition among specialized ASIC clouds, serverless runtimes, and open-source engines.
 
 ---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 Commercial, cloud-hosted ultra-fast inference clouds, specialized LPU/WSE/RDU hardware endpoints, and managed high-efficiency LLM serving APIs. Sorted descending by company scale (valuation / market capitalization).
 
@@ -55,119 +59,86 @@ Commercial, cloud-hosted ultra-fast inference clouds, specialized LPU/WSE/RDU ha
 | **[Portkey](https://portkey.ai)** | ~$150 Million (Acquired by Palo Alto Networks) | Developer plan is $0/mo; Production / Pro plan starts at $49/mo (includes 100,000 logs/reqs; $9 per addl 100k logs) | Free forever Developer plan: 10,000 requests/logs per month, 3-day log retention | Enterprise AI gateway offering semantic caching, fallback routing, and token budget governance across LLM providers. |
 | **[FriendliAI](https://friendli.ai)** | ~$100 Million – $250 Million (Estimated Valuation) | Serverless endpoints starting at $0.10/1M tokens; Dedicated GPU instances starting at ~$2.90/hr (A100 80GB) | Free serverless Tier 0 developer access with dynamic rate limits & promotional starter testing credits | Managed high-efficiency LLM serving cloud featuring iteration-level continuous batching and adaptive GPU scheduling. |
 
+---
 
+## 💻 Open-Source Equivalents & Tools
 
+Free and open-source software (FOSS) token optimizers, prompt compressors, PagedAttention/RadixAttention serving engines, speculative decoders, and KV-cache compressors. All tools are tagged with real-time star badges linking to their stargazers page and ranked by star popularity.
+
+### ✂️ Token Optimization, Prompt Compression & Pruning Engines
+
+* **[RAGFlow (InfiFlow)](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) - Leading open-source engine combining deep document parsing with token-efficient hybrid retrieval and prompt pruning.
+* **[DSPy (Stanford NLP)](https://github.com/stanfordnlp/dspy)** [![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=social&color=white)](https://github.com/stanfordnlp/dspy/stargazers) - Declarative open-source framework that algorithmically compiles concise, token-efficient prompts and weights for smaller models.
+* **[FreeToken (flashml-org)](https://github.com/flashml-org/FreeToken)** [![GitHub stars](https://img.shields.io/github/stars/flashml-org/FreeToken?style=social&color=white)](https://github.com/flashml-org/FreeToken/stargazers) - Open-source token optimization and inference efficiency toolkit engineered to maximize token throughput and minimize redundant token overhead.
+* **[LLMLingua & LongLLMLingua (Microsoft)](https://github.com/microsoft/LLMLingua)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/LLMLingua?style=social&color=white)](https://github.com/microsoft/LLMLingua/stargazers) - Industry-leading open-source prompt compression framework achieving up to 20x token reduction for RAG, CoT, and long-context prompts.
+* **[Selective Context](https://github.com/liyucheng09/Selective_Context)** [![GitHub stars](https://img.shields.io/github/stars/liyucheng09/Selective_Context?style=social&color=white)](https://github.com/liyucheng09/Selective_Context/stargazers) - Open-source utility pruning redundant lexical units in prompts based on self-information to accelerate prefill and reduce token count.
+
+### 🏎️ High-Throughput GPU LLM Inference & Serving Engines
+
+* **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) - Get up and running with large language models locally with optimized quantization, dynamic batching, and cross-platform acceleration.
+* **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers) - Foundational open-source C/C++ inference engine enabling high-efficiency quantized execution across CPUs, NVIDIA/AMD GPUs, and Apple Metal.
+* **[vLLM (PagedAttention)](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) - The industry-standard open-source high-throughput LLM serving engine maximizing GPU utilization via PagedAttention and continuous batching.
+* **[DeepSpeed-FastGen (Microsoft)](https://github.com/microsoft/DeepSpeed)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/DeepSpeed?style=social&color=white)](https://github.com/microsoft/DeepSpeed/stargazers) - High-performance inference engine leveraging Dynamic SplitFuse attention to maximize throughput while minimizing latency and token overhead.
+* **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers) - Blazingly fast open-source serving runtime featuring RadixAttention automatic prefix caching and zero-overhead CPU scheduling.
+* **[TensorRT-LLM (NVIDIA)](https://github.com/NVIDIA/TensorRT-LLM)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers) - Open-source C++/CUDA library compiling LLMs into optimized TensorRT engines with FP8/INT4 quantization, in-flight batching, and tensor parallelism.
+* **[Triton Inference Server (NVIDIA)](https://github.com/triton-inference-server/server)** [![GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers) - Enterprise open-source multi-model inference serving software optimized for GPU/CPU pipeline execution with dynamic batching.
+* **[Text Generation Inference (TGI - Hugging Face)](https://github.com/huggingface/text-generation-inference)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers) - Production-grade open-source Rust and Python serving toolkit with continuous batching, FlashAttention, and tensor parallelism.
+* **[BitsAndBytes](https://github.com/TimDettmers/bitsandbytes)** [![GitHub stars](https://img.shields.io/github/stars/TimDettmers/bitsandbytes?style=social&color=white)](https://github.com/TimDettmers/bitsandbytes/stargazers) - Accessible 4-bit and 8-bit quantization primitives and CUDA kernels drastically cutting VRAM requirements for high-efficiency LLM inference.
+* **[LMDeploy (InternLM)](https://github.com/InternLM/lmdeploy)** [![GitHub stars](https://img.shields.io/github/stars/InternLM/lmdeploy?style=social&color=white)](https://github.com/InternLM/lmdeploy/stargazers) - High-efficiency open-source toolkit powered by the C++/CUDA TurboMind engine supporting persistent batching and online KV quantization.
+* **[AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ)** [![GitHub stars](https://img.shields.io/github/stars/AutoGPTQ/AutoGPTQ?style=social&color=white)](https://github.com/AutoGPTQ/AutoGPTQ/stargazers) - Easy-to-use LLM quantization package based on 4-bit GPTQ with post-training quantization kernels for high-speed token generation.
+* **[ExLlamaV2](https://github.com/turboderp/exllamav2)** [![GitHub stars](https://img.shields.io/github/stars/turboderp/exllamav2?style=social&color=white)](https://github.com/turboderp/exllamav2/stargazers) - Fast inference library for local LLM deployment featuring optimized EXL2 multi-bit quantization and ultra-low VRAM memory footprint.
+* **[AutoAWQ](https://github.com/casper-hansen/AutoAWQ)** [![GitHub stars](https://img.shields.io/github/stars/casper-hansen/AutoAWQ?style=social&color=white)](https://github.com/casper-hansen/AutoAWQ/stargazers) - Activation-aware Weight Quantization (AWQ) engine delivering 2x–3x faster inference speeds with minimal perplexity degradation.
+* **[Aphrodite Engine](https://github.com/PygmalionAI/aphrodite-engine)** [![GitHub stars](https://img.shields.io/github/stars/PygmalionAI/aphrodite-engine?style=social&color=white)](https://github.com/PygmalionAI/aphrodite-engine/stargazers) - High-throughput open-source inference engine combining PagedAttention with extensive low-bit quantization formats (EXL2, AWQ, GPTQ, FP8).
+
+### ⏩ Speculative Decoding & Fast Token Generation Frameworks
+
+* **[Medusa](https://github.com/FasterDecoding/Medusa)** [![GitHub stars](https://img.shields.io/github/stars/FasterDecoding/Medusa?style=social&color=white)](https://github.com/FasterDecoding/Medusa/stargazers) - Open-source framework adding extra decoding heads to LLMs to predict multiple tokens per step without needing a separate draft model.
+* **[EAGLE / EAGLE-2 / EAGLE-3](https://github.com/SafeAILab/EAGLE)** [![GitHub stars](https://img.shields.io/github/stars/SafeAILab/EAGLE?style=social&color=white)](https://github.com/SafeAILab/EAGLE/stargazers) - State-of-the-art open-source speculative decoding framework accelerating LLM generation by 3x–5x via feature-level auto-regression.
+* **[Lookahead Decoding](https://github.com/hao-ai-lab/LookaheadDecoding)** [![GitHub stars](https://img.shields.io/github/stars/hao-ai-lab/LookaheadDecoding?style=social&color=white)](https://github.com/hao-ai-lab/LookaheadDecoding/stargazers) - Exact, lossless open-source parallel decoding algorithm accelerating LLM inference without draft models or data stores.
+* **[SpecForge (SGLang)](https://github.com/sgl-project/SpecForge)** [![GitHub stars](https://img.shields.io/github/stars/sgl-project/SpecForge?style=social&color=white)](https://github.com/sgl-project/SpecForge/stargazers) - Open-source training and serving toolkit for building custom speculative decoding draft models tailored for high-throughput production.
+
+### 💾 KV-Cache Compression, Paging & Prefix Reuse Systems
+
+* **[FlashAttention (Tri Dao)](https://github.com/Dao-AILab/flash-attention)** [![GitHub stars](https://img.shields.io/github/stars/Dao-AILab/flash-attention?style=social&color=white)](https://github.com/Dao-AILab/flash-attention/stargazers) - IO-aware exact attention CUDA kernels maximizing Tensor Core and HBM efficiency on modern GPUs.
+* **[LMCache](https://github.com/LMCache/LMCache)** [![GitHub stars](https://img.shields.io/github/stars/LMCache/LMCache?style=social&color=white)](https://github.com/LMCache/LMCache/stargazers) - Open-source KV-cache storage and reuse engine sharing precomputed prompt KV states across GPU, CPU DRAM, and disk to slash prefill compute.
+* **[StreamingLLM (MIT HAN Lab)](https://github.com/mit-han-lab/streaming-llm)** [![GitHub stars](https://img.shields.io/github/stars/mit-han-lab/streaming-llm?style=social&color=white)](https://github.com/mit-han-lab/streaming-llm/stargazers) - Efficient framework enabling LLMs trained with finite length to process infinite input token sequences without fine-tuning.
+* **[Mooncake (Moonshot AI)](https://github.com/kvcache-ai/Mooncake)** [![GitHub stars](https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=social&color=white)](https://github.com/kvcache-ai/Mooncake/stargazers) - KVCache-centric disaggregated open-source serving architecture pooling distributed DRAM and SSD resources for high-efficiency inference.
+* **[FlashInfer](https://github.com/flashinfer-ai/flashinfer)** [![GitHub stars](https://img.shields.io/github/stars/flashinfer-ai/flashinfer?style=social&color=white)](https://github.com/flashinfer-ai/flashinfer/stargazers) - High-performance open-source kernel library providing customized paged attention, cascade attention, and compressed KV-cache kernels.
+* **[H2O (Heavy-Hitter Oracle)](https://github.com/FMInference/H2O)** [![GitHub stars](https://img.shields.io/github/stars/FMInference/H2O?style=social&color=white)](https://github.com/FMInference/H2O/stargazers) - Open-source KV-cache eviction policy retaining critical heavy-hitter tokens to reduce memory bandwidth bottlenecks.
+* **[KIVI](https://github.com/jy-yuan/KIVI)** [![GitHub stars](https://img.shields.io/github/stars/jy-yuan/KIVI?style=social&color=white)](https://github.com/jy-yuan/KIVI/stargazers) - Tuning-free asymmetric 2-bit KV-cache quantization framework slashing memory footprint and boosting batch size throughput.
+
+### 🎯 Constrained Decoding & Zero-Overhead Structured Output
+
+* **[Guidance](https://github.com/guidance-ai/guidance)** [![GitHub stars](https://img.shields.io/github/stars/guidance-ai/guidance?style=social&color=white)](https://github.com/guidance-ai/guidance/stargazers) - Open-source constrained generation framework interleaving control logic and token fast-forwarding for efficient structured outputs.
+* **[Outlines](https://github.com/dottxt-ai/outlines)** [![GitHub stars](https://img.shields.io/github/stars/dottxt-ai/outlines?style=social&color=white)](https://github.com/dottxt-ai/outlines/stargazers) - Open-source structured text generation library using finite-state machines to guarantee valid schemas without wasted retry tokens.
+* **[XGrammar (MLC)](https://github.com/mlc-ai/xgrammar)** [![GitHub stars](https://img.shields.io/github/stars/mlc-ai/xgrammar?style=social&color=white)](https://github.com/mlc-ai/xgrammar/stargazers) - High-speed open-source structured generation engine achieving near-zero overhead token masking for JSON and regex schemas.
+* **[LLGuidance (Microsoft)](https://github.com/microsoft/llguidance)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/llguidance?style=social&color=white)](https://github.com/microsoft/llguidance/stargazers) - Ultra-fast Rust-based context-free grammar (CFG) and JSON schema constraint engine with token fast-forwarding to skip boilerplate tokens.
 
 ---
 
+## 📈 Star History
 
-
-## Open-Source Equivalents & Tools
-
-
-
-Free and open-source software (FOSS) token optimizers, prompt compressors, PagedAttention/RadixAttention serving engines, speculative decoders, and KV-cache compressors.
-
-
-
-### Token Optimization, Prompt Compression & Pruning Engines
-
-
-
-* **[FreeToken (flashml-org)](https://github.com)** - Open-source token optimization and inference efficiency toolkit engineered to maximize token throughput and minimize redundant token overhead.
-
-* **[LLMLingua & LongLLMLingua (Microsoft)](https://github.com)** - Industry-leading open-source prompt compression framework achieving up to 20x token reduction for RAG, CoT, and long-context prompts.
-
-* **[Optillm](https://github.com)** - Open-source OpenAI-API-compatible optimizing inference proxy implementing 15+ test-time compute and decoding optimizations to elevate smaller models.
-
-* **[Selective Context](https://github.com)** - Open-source utility pruning redundant lexical units in prompts based on self-information to accelerate prefill and reduce token count.
-
-* **[TOON (Token-Oriented Object Notation)](https://github.com)** - Compact, human-readable open-source data serialization format replacing verbose JSON in LLM prompts to cut structural tokens by 30%–60%.
-
-* **[DSPy (Stanford NLP)](https://github.com)** - Declarative open-source framework that algorithmically compiles concise, token-efficient prompts and weights for smaller models.
-
-
-
-### High-Throughput GPU LLM Inference & Serving Engines
-
-
-
-* **[vLLM (PagedAttention)](https://github.com)** - The industry-standard open-source high-throughput LLM serving engine maximizing GPU utilization via PagedAttention and continuous batching.
-
-* **[TensorRT-LLM (NVIDIA)](https://github.com)** - Open-source C++/CUDA library compiling LLMs into optimized TensorRT engines with FP8/INT4 quantization, in-flight batching, and tensor parallelism.
-
-* **[SGLang](https://github.com)** - Blazingly fast open-source serving runtime featuring RadixAttention automatic prefix caching and zero-overhead CPU scheduling.
-
-* **[LMDeploy (InternLM)](https://github.com)** - High-efficiency open-source toolkit powered by the C++/CUDA TurboMind engine supporting persistent batching and online KV quantization.
-
-* **[Text Generation Inference (TGI - Hugging Face)](https://github.com)** - Production-grade open-source Rust and Python serving toolkit with continuous batching, FlashAttention, and tensor parallelism.
-
-* **[Aphrodite Engine](https://github.com)** - High-throughput open-source inference engine combining PagedAttention with extensive low-bit quantization formats (EXL2, AWQ, GPTQ, FP8).
-
-* **[llama.cpp](https://github.com)** - Foundational open-source C/C++ inference engine enabling high-efficiency quantized execution across CPUs, NVIDIA/AMD GPUs, and Apple Metal.
-
-
-
-### Speculative Decoding & Fast Token Generation Frameworks
-
-
-
-* **[EAGLE / EAGLE-2 / EAGLE-3](https://github.com)** - State-of-the-art open-source speculative decoding framework accelerating LLM generation by 3x–5x via feature-level auto-regression.
-
-* **[Medusa](https://github.com)** - Open-source framework adding extra decoding heads to LLMs to predict multiple tokens per step without needing a separate draft model.
-
-* **[Lookahead Decoding](https://github.com)** - Exact, lossless open-source parallel decoding algorithm accelerating LLM inference without draft models or data stores.
-
-* **[SpecForge (SGLang)](https://github.com)** - Open-source training and serving toolkit for building custom speculative decoding draft models tailored for high-throughput production.
-
-
-
-### KV-Cache Compression, Paging & Prefix Reuse Systems
-
-
-
-* **[LMCache](https://github.com)** - Open-source KV-cache storage and reuse engine sharing precomputed prompt KV states across GPU, CPU DRAM, and disk to slash prefill compute.
-
-* **[Mooncake (Moonshot AI)](https://github.com)** - KVCache-centric disaggregated open-source serving architecture pooling distributed DRAM and SSD resources for high-efficiency inference.
-
-* **[FlashInfer](https://github.com)** - High-performance open-source kernel library providing customized paged attention, cascade attention, and compressed KV-cache kernels.
-
-* **[FlashAttention-3 (Tri Dao)](https://github.com)** - IO-aware exact attention CUDA kernels maximizing Tensor Core and HBM efficiency on Hopper/Blackwell GPUs.
-
-* **[KIVI](https://github.com)** - Tuning-free asymmetric 2-bit KV-cache quantization framework slashing memory footprint and boosting batch size throughput.
-
-* **[H2O (Heavy-Hitter Oracle)](https://github.com)** - Open-source KV-cache eviction policy retaining critical heavy-hitter tokens to reduce memory bandwidth bottlenecks.
-
-
-
-### Constrained Decoding & Zero-Overhead Structured Output
-
-
-
-* **[LLGuidance](https://github.com)** - Ultra-fast Rust-based context-free grammar (CFG) and JSON schema constraint engine with token fast-forwarding to skip boilerplate tokens.
-
-* **[XGrammar (MLC)](https://github.com)** - High-speed open-source structured generation engine achieving near-zero overhead token masking for JSON and regex schemas.
-
-* **[Outlines](https://github.com)** - Open-source structured text generation library using finite-state machines to guarantee valid schemas without wasted retry tokens.
-
-* **[Guidance](https://github.com)** - Open-source constrained generation framework interleaving control logic and token fast-forwarding for efficient structured outputs.
-
-
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-LLM-Token-Optimization-Inference-Efficiency&type=date&legend=top-left)
 
 ---
 
+## 🤝 Contributing
 
+Contributions are always welcome! Feel free to open a Pull Request to add more open-source LLM token optimization tools, prompt compressors, high-efficiency inference engines, or speculative decoding frameworks. 🛠️
 
-## Contributing
+1. 🍴 Fork the repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/awesome-tool`).
+3. 📝 Add your project under the appropriate category with a concise description and correct GitHub link.
+4. 🚀 Submit a Pull Request.
 
+---
 
+## 💖 Support & Sponsorship
 
-Contributions are welcome! Feel free to open a Pull Request to add more open-source LLM token optimization tools, prompt compressors, high-efficiency inference engines, or speculative decoding frameworks.
+Thank you so much for exploring and using **Awesome-LLM-Token-Optimization-Inference-Efficiency**! 🙏
 
+If you find this repository valuable for your AI projects, research, or engineering workflows, please consider supporting its ongoing curation and maintenance:
 
-
-1. Fork the repository.
-
-2. Add your project under the appropriate category with a concise description.
-
-3. Submit a Pull Request.
+- ⭐ **Star this repository** to help others discover it on GitHub!
+- 🍴 **Fork and share** it with your engineering team, AI research groups, and tech communities.
+- ☕ **Buy me a coffee & sponsor my work**: You can directly sponsor ongoing open-source curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support helps keep this curated guide continuously up to date!
